@@ -1,16 +1,16 @@
 #include "sort.h"
 
 /**
-* swap - the positions of two elements into an array
-*
-* @array: array
-* @size: the size of array
-* @a: array element
-* @b: array element
-*
-* Return: void
-*/
-void swap(int *array, size_t size, int a, int b)
+ * swap - the positions of two elements into an array
+ *
+ * @array: array
+ * @size: the size of array
+ * @a: array element
+ * @b: array element
+ *
+ * Return: void
+ */
+void swap(int *array, size_t size, int *a, int *b)
 {
 	if (*a != *b)
 	{
